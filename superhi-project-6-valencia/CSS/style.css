@@ -1,0 +1,531 @@
+body {
+/*   font-family: HK Grotesk; */
+  font-size: 24px;
+  line-height: 1.5;
+  background-color: #ECC7AB;
+  color: #fff;
+/*   max-width: 960px; */
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'hk_grotesksemibold', sans-serif;
+}
+
+/* for the bold version */
+h2 {
+  font-family: 'hk_groteskbold', sans-serif;
+}
+
+
+header {
+  padding: 60px 40px 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.menu {
+  background-color: #FFD363;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  transform: translateX(100%);
+  transition: transform 0.5s ease;
+  z-index: 2;
+}
+
+.main-menu {
+  font-size: 60px;
+  display: block;
+/*   width: 300px; */
+  text-align: right;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 250px;
+}
+
+.main-menu li {
+    margin-bottom: -20px;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-menu {
+  margin-top: 100px;
+  font-size: 30px;
+  display: block;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.social-menu li {
+  margin-bottom: -15px;
+}
+
+.social-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 52.5px;
+  right: 40px;
+  z-index: 3;
+}
+
+.natural {
+  margin-left: 260px;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.natural h2 {
+  font-size: 80px;
+  line-height: 0.9;
+  font-weight: 700;
+  transition: transform 0.5s ease;
+}
+
+.natural:hover h2 {
+  transform: scale(1.05);
+}
+
+.natural .copy {
+  position: absolute;
+/*   right: 525px; */
+  left: 350px;
+  top: 50%;
+  width: 400px;
+  transform: translateY(-50%);
+}
+
+.square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #738DA0;
+/*   margin-top: 425px; */
+  left: -75px;
+  top: 380px;
+}
+
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+}
+
+.type1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 500px;
+  left: -50px;
+  background-color: #d9a724;
+}
+
+.one-thing {
+/*   padding-right: 300px; */
+  margin-left: 600px;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.one-thing .copy {
+  position: absolute;
+  bottom: 50px;
+  left: -250px;
+  width: 480px;
+  transition: transform 0.5s ease;
+}
+
+.one-thing:hover .copy {
+  transform: scale(1.05) translateX(10px);
+}
+
+.one-thing h2 {
+  font-size: 80px;
+  line-height: 0.9;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.one-thing p {
+  font-size: 16px;
+  width: 250px;
+  font-weight: 100;
+}
+
+.one-thing .type1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: -50px;
+/*   background-color: #d9a724; */
+}
+
+.lookbook {
+ 	padding: 220px 0px 180px 0px;
+  background-image: url(../Images/image_3.jpg);
+  background-size: cover;
+/*   text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.lookbook h2 {
+  margin: auto auto auto auto;
+  font-size: 80px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.lookbook h2 li {
+    margin-bottom: -40px;
+}
+
+.lookbook h2 li:last-child {
+    padding-bottom: 50px;
+}
+
+.lookbook h2 li img {
+  margin-bottom: 40px;
+}
+
+.spring-collection {
+  position: relative;
+/*   text-align: center; */
+  margin-top: 150px;
+  margin-bottom: 300px;
+  margin-left: 325px;
+}
+
+.spring-collection .copy {
+  font-size: 80px;
+  line-height: 1;
+  width: 400px;
+	margin-top: -140px;
+  text-align: center;
+  transition: transform 0.5s ease;
+  margin-left: 225px;
+}
+
+.spring-collection:hover .copy {
+  transform: scale(1.05) translateY(-10px);
+}
+
+.spring-collection .type1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  left: 650px;
+/*   left: 950px; */
+}
+
+.spring-collection .square {
+  position: absolute;
+  top: 250px;
+  left: -50px;
+}
+
+footer {
+  background-color: #FFD363;
+  text-align: center;
+  height: 500px;
+}
+
+footer img {
+  width: 100%;
+  background-color: #ECC7AB;
+}
+
+footer nav {
+  display: block;
+  margin-top: -150px;
+  font-size: 48px;
+}
+
+footer nav a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+@media (max-width: 1226px) {
+  .spring-collection {
+    margin-left: 150px;
+  }
+  
+  .one-thing {
+    margin-left: 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .natural {
+    margin-bottom: 300px;
+  }
+  
+  .natural .copy {
+  /*   right: 525px; */
+/*     left: -10%;
+    top: 120%; */
+    top: 50%;
+    left: 40%;
+    width: 37.5%;
+  }
+  
+  .natural h2 {
+    font-size: 60px;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: #738DA0;
+  /*   margin-top: 425px; */
+    left: -100px;
+    top: 325px;
+	}
+  
+  .one-thing {
+    margin-left: 250px;
+    margin-bottom: 500px;
+  }
+  
+  .one-thing img {
+    width: 500px;
+  }
+  
+  .one-thing .copy {
+/*     left: 0;
+    bottom: -250px; */
+    left: -100px;
+  }
+  
+  .one-thing h2 {
+    font-size: 60px;
+    width: 300px;
+  }
+  
+  
+  .spring-collection {
+    position: relative;
+    margin-bottom: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+	}
+
+	.spring-collection .square {
+    position: absolute;
+    top: 205px;
+    left: -50px;
+  }
+  
+  .spring-collection .copy {
+    position: absolute;
+    font-size: 60px;
+    bottom: -50px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+	.menu {
+  	width: 100%;
+	}
+  
+  header h1 {
+    z-index: 3;
+  }
+  
+  .natural h2 {
+/*     left: -10%; */
+    width: 500px;
+    font-size: 48px;
+  }
+  
+  .natural {
+      margin-left: 20%;
+  }
+  
+  .natural .copy {
+    left: 0;
+    top: 750px;
+  }
+  
+  .natural:hover h2 {
+  	transform: scale(1);
+	}
+  
+  .square {
+    left: 375px;
+    top: -250px;
+	}
+  
+  .one-thing {
+    margin-left: 20%;
+    margin-bottom: 350px;
+  }
+  
+  .one-thing .copy {
+    left: 0px;
+    bottom: -200px;
+  }
+  
+  .one-thing p {
+    width: 80%;
+  }
+  
+  .one-thing h2 {
+    font-size: 48px;
+    width: 100%;
+  }
+  
+  .one-thing:hover .copy {
+  	transform: scale(1);
+	}
+  
+  .spring-collection .copy {
+    position: absolute;
+		left: -150px;
+    top: 550px;
+  }
+  
+  .spring-collection .type1 {
+    position: absolute;
+		left: 400px;
+  }
+  
+  .spring-collection:hover .copy {
+  	transform: scale(1) translateY(0);
+	}
+  
+  footer nav a {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  
+  footer nav {
+    display: block;
+    width: 100px;
+    margin-top: -100px;
+    margin-left: 37.5%;
+  }
+}
+
+@media (max-width: 414px) {
+  .natural {
+      margin-left: 60px;
+  }
+  
+  .natural img {
+    width: 70%;
+  }
+  
+  .type1 {
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: -25px;
+  }
+
+  .square {
+    width: 50px;
+    height: 50px;
+    left: 225px;
+		top: -150px;
+	}
+  
+  .natural .copy {
+    top: 500px;
+  }
+  
+  .natural h2 {
+    width: 200%;
+  }
+ 
+  
+  .one-thing {
+    margin-left: 60px;
+  }
+  
+  .one-thing img {
+    width: 70%;
+  }
+  
+  .one-thing .type1 {
+    width: 50px;
+    height: 50px;
+    left: -25px;
+    top: 55px;
+  }
+  
+  .one-thing .copy {
+    margin-bottom: -30px;
+  }
+  
+  .one-thing h2 {
+    width: 50%;
+    top: 250px;
+  }
+  
+  .one-thing p {
+    width: 50%;
+    margin-bottom: -25px;
+  }
+  
+  .lookbook h2 {
+    font-size: 48px;
+  }
+  
+  .lookbook h2 li {
+    margin-bottom: -20px;
+	}
+  
+  .spring-collection .type1 {
+    width: 25px;
+    height: 25px;
+    left: 150px;
+    top: -12.5px;
+  }
+  
+  .spring-collection .square {
+    width: 25px;
+    height: 25px;
+    left: -12.5px;
+    top: 60px;
+  }
+  
+  .spring-collection .copy {
+    left: -325px;
+    top: 300px;
+  }
+  
+  .spring-collection h2 {
+    font-size: 36px;
+  }
+  
+  
+  footer nav {
+    display: block;
+    width: 100px;
+    margin-top: -20px;
+    margin-left: 30%;
+  }
+}

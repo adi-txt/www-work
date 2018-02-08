@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'hk_groteskbold';
+  src: url('../Fonts/hkgrotesk-bold-webfont.woff2') format('woff2'), url('../Fonts/hkgrotesk-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hk_grotesksemibold';
+  src: url('../Fonts/kgrotesk-semibold-webfont.woff2') format('woff2'), url('../Fonts/hkgrotesk-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
