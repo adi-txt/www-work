@@ -1,0 +1,123 @@
+body {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 1.5;
+  background: #000000;
+  color: #cccccc;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.holder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10000vw;
+  height: 100vh;
+  transition: left 1s;
+}
+
+.holder div {
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 30px;
+}
+
+.slide-1 {
+  background-image: url('../Images/nyc-1.jpg');
+}
+
+.slide-2 {
+  background-image: url('../Images/nyc-2.jpg');
+}
+
+.slide-3 {
+  background-image: url('../Images/nyc-3.jpg');
+}
+
+.slide-4 {
+  background-image: url('../Images/nyc-4.jpg');
+}
+
+.slide-5 {
+  background-image: url('../Images/nyc-5.jpg');
+}
+
+.slide-6 {
+  background-image: url('../Images/nyc-6.jpg');
+}
+
+.slide-7 {
+  background-image: url('../Images/nyc-7.jpg');
+}
+
+.slide-8 {
+  background-image: url('../Images/nyc-8.jpg');
+}
+
+.slide-9 {
+  background-image: url('../Images/nyc-9.jpg');
+}
+
+.slide-10 {
+  background-image: url('../Images/nyc-10.jpg');
+}
+
+.slide-11 {
+  background-image: url('../Images/nyc-11.jpg');
+}
+
+.slide-12 {
+  background-image: url('../Images/nyc-12.jpg');
+}
+
+.slide-13 {
+  background-image: url('../Images/nyc-13.jpg');
+}
+
+.slide-14 {
+  background-image: url('../Images/nyc-14.jpg');
+}
+
+.slide-15 {
+  background-image: url('../Images/nyc-15.jpg');
+}
+
+.slide-16 {
+  background-image: url('../Images/nyc-16.jpg');
+}
+
+.steps {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  color: #cccccc;
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
