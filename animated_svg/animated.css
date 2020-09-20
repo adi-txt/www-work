@@ -1,0 +1,11 @@
+svg {
+  width: 600px;
+  height: 400px;
+}
+
+path {
+  stroke: #ff7e00; /* color of stroke */
+  stroke-width: 10px; /* width of path that shows up */
+  stroke-linecap: round; /* no sharp corners */
+  fill: none; /* remove black interior */
+}
